@@ -106,7 +106,7 @@ export default function Navbar() {
                 {theme === 'dark' ? (
                   <motion.svg
                     key="sun"
-                    xmlns="[w3.org](http://www.w3.org/2000/svg)"
+                    xmlns="http://www.w3.org/2000/svg"
                     fill="none"
                     viewBox="0 0 24 24"
                     strokeWidth={1.5}
@@ -122,7 +122,7 @@ export default function Navbar() {
                 ) : (
                   <motion.svg
                     key="moon"
-                    xmlns="[w3.org](http://www.w3.org/2000/svg)"
+                    xmlns="http://www.w3.org/2000/svg"
                     fill="none"
                     viewBox="0 0 24 24"
                     strokeWidth={1.5}

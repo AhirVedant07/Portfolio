@@ -16,6 +16,7 @@ const poppins = Poppins({
 })
 
 export const metadata: Metadata = {
+  metadataBase: new URL('https://vedantahir.dev'),
   title: 'Vedant Ahir | AI Developer & Full Stack Engineer',
   description: 'Building intelligent systems, scalable backend solutions, and modern digital experiences. AI & Data Science student passionate about machine learning, backend development, and innovative solutions.',
   keywords: [
@@ -34,7 +35,7 @@ export const metadata: Metadata = {
   openGraph: {
     type: 'website',
     locale: 'en_US',
-    url: '[vedantahir.dev](https://vedantahir.dev)',
+    url: 'https://vedantahir.dev',
     siteName: 'Vedant Ahir Portfolio',
     title: 'Vedant Ahir | AI Developer & Full Stack Engineer',
     description: 'Building intelligent systems, scalable backend solutions, and modern digital experiences.',
